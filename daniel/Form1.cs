@@ -7,7 +7,7 @@ namespace daniel
     public partial class Form1 : Form
     {
         //Define MYSQL connection using Xampp phpmyadmin database
-        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbkoz;username=root;password=;");
+        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbdaniel;username=root;password=;");
         public Form1()
         {
             InitializeComponent();

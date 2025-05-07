@@ -17,7 +17,7 @@ namespace daniel
     public partial class registerForm : Form
     {
         // Define MySQL connection using XAMPP's phpMyAdmin database
-        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbkoz;username=root;password=;");
+        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbdaniel;username=root;password=;");
         public registerForm()
         {
             InitializeComponent();
